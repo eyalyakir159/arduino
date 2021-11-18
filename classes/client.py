@@ -1,3 +1,5 @@
+
+
 class client:
     def __init__(self,id,name,email,phone,age,symtoms,syndrom_type) -> None:
         #user enter
@@ -13,4 +15,8 @@ class client:
         #user data
         self.reports = []
         self.schedule =None
+
+        
+    def add_reports(self,report):
+        self.reports.append(report)
 
